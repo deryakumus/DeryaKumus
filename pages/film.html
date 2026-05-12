@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Önerileri</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/myscript.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="Anasayfa.html">Ana Sayfa</a>
+        <a href="dizi.html">Diziler</a>
+        <a href="kitap.html">Kitaplar</a>
+        <a href="populer.html">Popüler</a>
+        <a href="favoriler.html">Favorilerim</a>
+    </div>
+
+    <div class="container">
+
+        <h2>Film Önerileri</h2>
+
+        <!-- FILM 1 -->
+        <div class="card">
+            <img src="../img/ınception.png" alt="Inception afiş">
+            <div>
+                <span class="heart" data-name="Inception" onclick="toggleFavori(this, 'Inception')">
+                    🤍
+                </span>
+
+                <h3>Inception</h3>
+                <p>
+                    Dom Cobb (Leonardo DiCaprio) çok yetenekli bir hırsızdır. Uzmanlık alanı, zihnin en savunmasız
+                    olduğu rüya görme anında, bilinçaltının derinliklerindeki değerli sırları çekip çıkarmak ve onları
+                    çalmaktır...Cobb'un bu ender mahareti, onu kurumsal casusluğun tehlikeli yeni dünyasında aranan bir
+                    oyuncu yapmıştır. Ancak, aynı zamanda bu durum onu uluslararası bir kaçak yapmış ve sevdiği herşeye
+                    malolmuştur...Cobb'a içinde bulunduğu durumdan kurtulmasını sağlayacak bir fırsat sunulur. Ona
+                    hayatını geri verebilecek son bir iş; tabi eğer imkansız "başlangıç"ı tamamlayabilirse...Mükemmel
+                    soygun yerine, Cobb ve takımındaki profesyoneller bu sefer tam tersini yapmak zorundadır; görevleri
+                    bir fikri çalmak değil onu yerleştirmektir. Eğer başarırlarsa, mükemmel suç bu olacaktır.Ama ne
+                    dikkatle yapılan planlamalar, ne de uzmanlıkları, onları, her hareketlerini önceden tahmin ettiği
+                    anlaşılan tehlikeli düşmanlarına karşı hazırlıklı kılabilir. Bu, gelişini sadece Cobb'ın görebildiği
+                    bir düşmandır...
+                </p>
+            </div>
+
+        </div>
+
+        <!-- FILM 2 -->
+        <div class="card">
+            <img src="../img/ınterstellar.png" alt="Interstellar afiş">
+            <div>
+                <span class="heart" data-name="Interstellar" onclick="toggleFavori(this, 'Interstellar')">
+                    🤍
+                </span>
+                <h3>Interstellar</h3>
+                <p>
+                    Dünya üzerindeki yaşamımız sona ererken, bir grup araştırmacı insanlık tarihinin en önemli görevini
+                    üstlenirler; Bulunduğumuz galaksinin ötesine yolculuk ederek insanlığın, yıldızların ötesinde
+                    yaşamını sürdürmesinin mümkün olup olmayacağını keşfe çıkarlar. Teknik bilgisi ve çok becerikli
+                    Cooper, mısır tarlalarında çiftçilik yaparak geçinmektedir; hayattaki tek amacı iki çocuğuna güvenli
+                    bir hayat sunmaktır. Onlarla yaşayan dede Donald çocuklara göz kulak olurken, henüz 10 yaşındaki
+                    kızı Murph şaşırtıcı bir zekaya sahiptir. Geçmişte bıraktığı bilim insanı kariyerini özleyen
+                    Cooper'un karşısına bir gün beklenmedik bir teklif çıkar ve ailesinin, dahası insanlığın güvenliği
+                    için zorlu bir karar alması gerekir... Film, Kip S. Thorne'nun evrende '" solucan deliklerinin "
+                    gerçekten var olduğu ve bu sayede zamanda yolculuğun mümkün olabileceği teorisinden ilham alınarak
+                    yaratılmıştır
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 3-->
+        <div class="card">
+            <img src="../img/Life_Is_Beautiful_film.png" alt="Life İs Beautiful afiş">
+            <div>
+                <span class="heart" data-name="Life İs Beautiful" onclick="toggleFavori(this, 'Life İs Beautiful')">
+                    🤍
+                </span>
+                <h3>Life İs Beautiful</h3>
+                <p>
+                    Hikaye, Yahudi kökenli bir İtalyan adam olan Guido (Roberto Benigni) ile onun genç oğlu Giosuè
+                    (Giorgio Cantarini) arasındaki ilişkiye odaklanır. Film, Mussolini yönetimindeki faşist İtalya'da
+                    başlar ve Nazilerin iktidara gelmesiyle birlikte İtalya'da da Yahudilere yönelik zulüm artar. Guido
+                    ve Giosuè, ailelerinden ayrı düşerler ve toplama kamplarına gönderilmek üzere trenle gönderilmek
+                    üzereyken, Guido oğluna savaşın bir oyun olduğunu ve kampta geçirecekleri süreci bir yarışma gibi
+                    düşünmeleri gerektiğini söyler. Bu, baba ve oğul arasındaki bağı güçlendirir ve Giosuè'yi umutla
+                    dolu tutar.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 4-->
+        <div class="card">
+            <img src="../img/trumans.png" alt="The Truman Show afiş">
+            <div>
+                <span class="heart" data-name="The Truman Show " onclick="toggleFavori(this, 'The Truman Show ')">
+                    🤍
+                </span>
+                <h3>The Truman Show </h3>
+                <p>
+                    Dünyanın en güzel adalarından birinde yaşayan halk, imrenilecek derecede ütopik bir hayat
+                    sürmektedir. Bu adada yaşayan insanlar her güne mutlu uyanıp herhangi bir sorunla karşılaşmadan günü
+                    sonlandırıyorlardır. Ana karakterimiz Truman da bu şanslı insanlardan biridir. Güzel bir eşe ve
+                    mutlu bir hayata sahip olan Truman, öldüğünü zannettiği babasını bir gün caddede gördüğü ana kadar
+                    hayatı olduğu gibi yaşar. Babasını gördüğüne emindir ancak adam bir anda ortalıktan kaybolmuştur.
+                    İlerleyen günlerde çeşitli gizemli anlar yaşayan Truman bir şeylerin yolunda gitmediğini fark
+                    edecek, sahip olduğu hayatın gerçek olup olmadığını anlamaya çalışacaktır. Televizyon sektörü
+                    üzerine yapılan en esaslı eleştirilerden biri olan Truman Show sinema tarihinin en yaratıcı
+                    senaryolarından birine sahip. Aynı zamanda başrolündeki Jim Carrey'nin olağanüstü performansını da
+                    es geçmemek gerekiyor.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 5-->
+        <div class="card">
+            <img src="../img/readyOrNot.png" alt="Ready Or Not afiş">
+            <div>
+                <span class="heart" data-name="Ready Or Not " onclick="toggleFavori(this, 'Ready Or Not')">
+                    🤍
+                </span>
+                <h3>Ready Or Not </h3>
+                <p>
+                    Ready or Not Saklambaç filmi Zengin bir adam ile evlenen genç bir kadının yaşadıklarını konu ediyor.
+                    Genç bir kadın, yeni evlendiği adamın eksantrik ailesi tarafından bir akşam yemeğine davet edilir.
+                    Birbirlerini daha iyi tanımalarını sağlayacak bu yemek davetini memnuniyetle kabul eden kadın,
+                    başına geleceklerden bihaber yemeğe katılır. Genç kadının sıradan bir akşam yemeği olarak düşündüğü
+                    bu davet, insanların hayatta kalmak için mücadele ettiği korkunç bir savaşa dönüşür...
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 6-->
+        <div class="card">
+            <img src="../img/fall.png" alt="Fall afiş">
+            <div>
+                <span class="heart" data-name="Fall" onclick="toggleFavori(this, 'Fall')">
+                    🤍
+                </span>
+                <h3>Fall</h3>
+                <p>
+                    Birbirleriyle iyi arkadaş olan Becky ve Hunter kendilerini 600 metrelik bir radyo kulesinin
+                    tepesinde bulurlar.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 7-->
+        <div class="card">
+            <img src="../img/ada.png" alt="The Island afiş">
+            <div>
+                <span class="heart" data-name="The Island" onclick="toggleFavori(this, 'The Island')">
+                    🤍
+                </span>
+                <h3>The Island</h3>
+                <p>
+                    Başrolleri olan Lincoln Six Eco ve Jordan Two-Delta ütopik ve dışa kapalı 1 tesiste
+                    yaşamaktadırlar.. onlar da Ada ya gitme hayalindeler.. söylentiye göre bu Ada yeryüzün de tek
+                    kirletilmemiş bölgedir.. ve bu Adaya bir kaçış düzenlerler .. Amaçları Ada hakkındaki gerçekleri
+                    ortaya çıkarmak ve aksiyon dolu anlar başlar.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 8-->
+        <div class="card">
+            <img src="../img/thehousmaid.png" alt="The Housemaid afiş">
+            <div>
+                <span class="heart" data-name="The Housemaid" onclick="toggleFavori(this, 'The Housemaid')">
+                    🤍
+                </span>
+                <h3>The Housemaid</h3>
+                <p>
+                    Hapisten yeni çıkan Millie, taze bir başlangıç umuduyla Nina ve Andrew Winchester’ın evinde hizmetçi
+                    olarak çalışmaya başlar. Konaklama ve yemeğin dâhil olduğu bu iş, 27 yaşındaki genç kadın için
+                    hayatını toparlamak adına büyük bir fırsat gibi görünür. Ancak evin huzursuz atmosferi kısa sürede
+                    kendini hissettirir. Şımarık kızları Cecilia’nın kaprisleri ve Nina’nın mesafeli tavırları Millie’yi
+                    giderek köşeye sıkıştırırken, yalnızca Andrew’un nazik davranışları dikkat çeker. Yeni hayatına
+                    tutunmaya çalışan Millie, içinde bulunduğu bu soğuk ve gizemli ortamda hayatta kalmaya çalışırken,
+                    Winchester ailesinin onu karanlık ve tehlikeli bir oyunun parçası hâline getirdiğini henüz fark
+                    etmemektedir.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 9-->
+        <div class="card">
+            <img src="../img/üykücü.png" alt="Uykucu afiş">
+            <div>
+                <span class="heart" data-name="Uykucu" onclick="toggleFavori(this, 'Uykucu')">
+                    🤍
+                </span>
+                <h3>Uykucu</h3>
+                <p>
+                    Uykucu, gizli bir örgütün ölümcül oyununda kesişen iki yaralı ruhun hikayesini konu alıyor. Ferman,
+                    “Masa” adlı gizli örgüt adına eski ajanları ortadan kaldıran soğukkanlı bir tetikçidir. Bir görev
+                    sırasında hedefi olan Saye’yle karşılaşır ve beklenmedik şekilde ona aşık olur. Saye’yi öldürmek
+                    yerine örgüte kazandırmayı seçer. Bu karar, ikisinin de hayatında geri dönüşü olmayan bir yolun
+                    başlangıcı olur.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 10-->
+        <div class="card">
+            <img src="../img/sendenbk.png" alt="Senden Bana Kalan afiş">
+            <div>
+                <span class="heart" data-name="Senden Bana Kalan" onclick="toggleFavori(this, 'Senden Bana Kalan')">
+                    🤍
+                </span>
+                <h3>Senden Bana Kalan</h3>
+                <p>
+                    Çocukluğunda annesiz ve babasız kalan Özgür, büyükbabasının mirası sayesinde zorluk görmeden, biraz
+                    da şımartılarak büyümüştür. Büyükbabasından kalacak olan miras sayesinde rahat ve sorumsuz bir hayat
+                    sürmeyi planlarken 18 yaşına bastığı gün işlerin hiç de umduğu gibi gitmeyeceğini öğrenir. Özgür
+                    mirası alabilmek için vasiyetnamede yazan bir şartı yerine getirmek zorundadır. Buna göre
+                    İstanbul'dan Çanakkale'nin Adatepe köyüne taşınacak ve burada bir yıl geçirecektir. Özgür bu şartı
+                    yerine getirmezse mirasın yalnızca ufak bir kısmını alabilecek, geri kalan kısmı ise hayır
+                    kurumlarına bağışlanacaktır. Mirası hak ettiğini düşünen Özgür, Adatepe'ye gider ve kendini bekleyen
+                    yeni hayata böylece atılmış olur. Adatepe'de onu büyük sürprizler beklemektedir. En büyük sürpriz
+                    ise beklenmedik bir anda hayatına giren Elif olacaktır.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 11-->
+        <div class="card">
+            <img src="../img/yanyana.png" alt="Yan Yana afiş">
+            <div>
+                <span class="heart" data-name="Yan Yana" onclick="toggleFavori(this, 'Yan Yana')">
+                    🤍
+                </span>
+                <h3>Soyut Dışavurumcu Bir Dostluğun Anatomisi Veyahut Yan Yana</h3>
+                <p>
+                    Kaza sonrası felç olan zengin bir adam, farklı geçmişten bir bakıcı tutar. Zıt karakterler başta
+                    çatışsa da, aralarındaki beklenmedik dostluk her ikisinin de yaşamını dönüştüren güçlü bir bağa
+                    dönüşür.
+                    dönüşür.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 12-->
+        <div class="card">
+            <img src="../img/hayalet-surucu.png" alt="Ghost Rider afiş">
+            <div>
+                <span class="heart" data-name="Ghost Rider" onclick="toggleFavori(this, 'Ghost Rider')">
+                    🤍
+                </span>
+                <h3>Ghost Rider</h3>
+                <p>
+                    Johnny Blaze hayatını motorsikleti sayesinde kazanmaktadır. Motorsikletiyle yaptığı akıl almaz
+                    gösteriler sayesinde bu extrem spora meraklı binlerce insanın saygısını ve sevgisini kazanmaktadır.
+                    Ancak bu parıltılı hayatın altını kazıyınca ortada büyük bir trajedi olduğu görülecektir. Johnny
+                    Blaze, yıllar önce sevdiği kadını kurtarmak için şeytanla bir anlaşma yapmıştır. Bu anlaşmaya göre
+                    Johnny geceleri şeytanın emrinde çalışan bir 'hayalet' olmak zorundadır.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 13-->
+        <div class="card">
+            <img src="../img/baskabs.png" alt="Başka Bir Sen afiş">
+            <div>
+                <span class="heart" data-name="Başka Bir Sen" onclick="toggleFavori(this, 'Başka Bir Sen')">
+                    🤍
+                </span>
+                <h3>Başka Bir Sen</h3>
+                <p>
+                    Mümtaz’ın hayatında hiçbir şey yolunda gitmemektedir. Yine böyle bir günde onun yolu Derya ile
+                    kesişir. Dahil oldukları büyük bir kaza, Derya ile Mümtaz’ın hayatını geri dönüşü olmayacak bir
+                    şekilde değiştirir. Mümtaz ile Derya aile olabilmenin zorlukları ve sonsuz aşkın sınırlarıyla
+                    mücadele etmek zorunda kalır.
+                </p>
+            </div>
+        </div>
+
+        <!-- FILM 14-->
+        <div class="card">
+            <img src="../img/takintilar.png" alt="Takıntılar afiş">
+            <div>
+                <span class="heart" data-name="Takıntılar" onclick="toggleFavori(this, 'Takıntılar')">
+                    🤍
+                </span>
+                <h3>Takıntılar</h3>
+                <p>
+                    Takıntılar, Fransız yazar Laurent Baffie’nin “Toc Toc” adlı tiyatro oyunundan uyarlanıyor. Obsesif
+                    kompulsif bozukluğu olan altı kişi ünlü psikiyatr Orhan Kerim Baykal’dan randevu alır. Ancak altı
+                    hastanın randevularının çakışması işlerin karışmasına neden olur. Üstelik doktor da ortalarda yoktur
+                    ve bu hastaların kendilerini beklenmedik maceraların içerisinde bulmasına neden olur.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- FILM 15-->
+        <div class="card">
+            <img src="../img/cebimyab.png" alt="Cebimdeki Yabancı afiş">
+            <div>
+                <span class="heart" data-name="Cebimdeki Yabancı" onclick="toggleFavori(this, 'Cebimdeki Yabancı')">
+                    🤍
+                </span>
+                <h3>Cebimdeki Yabancı</h3>
+                <p>
+                    Yedi eski dost bir akşam yemeğinde bir araya gelmeye karar verir. Herkes sofranın başında oturmuş
+                    sohbet etmekte, şen kahkahalar eşliğinde yemek yemektedir. Yemek sırasında bir oyun oynamaya karar
+                    verilir. Oyun oldukça basittir; herkes telefonlarını masaya koyacak, gelen her mesaj ve bildirim
+                    yüksek sesle okunacaktır. Yedi dostun maskelerinin ardındaki hayatların cep telefonları ile ortaya
+                    koymaları ilişki dengelerini altüst eder. Bunca zaman çok yakın dost olduklarını düşünün grup
+                    aslında birbirlerine yabancıdır.
+                </p>
+            </div>
+        </div>
+
+
+        <p style="text-align:center;">
+            Diğer film önerileri zamanla eklenecektir.
+        </p>
+
+    </div>
+
+</body>
+
+</html>

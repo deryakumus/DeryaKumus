@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popüler Olanlar</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/myscript.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="Anasayfa.html">Ana Sayfa</a>
+        <a href="dizi.html">Diziler</a>
+        <a href="film.html">Filmler</a>
+        <a href="kitap.html">Kitaplar</a>
+        <a href="favoriler.html">Favorilerim</a>
+    </div>
+
+    <div class="container">
+
+        <h2>Popüler Olanlar</h2>
+
+        <!-- Kitap 1 -->
+        <div class="card">
+
+            <img src="../img/kurkmantmadonna.png" alt="Kürk Mantolu Madonna">
+
+            <div>
+                <span class="heart" data-name="Kürk Mantolu Madonna kapak görseli"
+                    onclick="toggleFavori(this, 'Kürk Mantolu Madonna')">
+                    🤍
+                </span>
+
+                <h3>Kürk Mantolu Madonna | Kitap</h3>
+                <p>
+                    Türk edebiyatının en güzel, en hüzünlü aşk romanlarının başında gelir Kürk Mantolu Madonna.
+                    Gerçek aşkı arayan iki insanın, Raif Efendi ile Maria Puder’in tutku dolu hikâyesidir.
+                    Sabahattin Ali bu romanda, mutsuzlukla kaplı yalnızlığında ve acılı geçmişinde yaşayan silik,
+                    yılgın, yenilmiş bir taşra memuru olan Raif Efendi ile güçlü bir kadın görünümü çizen Maria Puder’in
+                    kişiliklerinde, edebiyatımızın en başarılı psikolojik anlatılarından birini de ortaya koyar.
+                    Kürk Mantolu Madonna, dilinin sadeliği, roman karakterlerinin duygu ve düşünce dünyalarının
+                    betimlenmesinde ve insan çözümlemelerindeki derinliğiyle edebiyatımızın başyapıtlarından biridir.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Kitap 2 -->
+        <div class="card">
+
+            <img src="../img/yasamak.png" alt="Yaşamak kapak görseli">
+
+            <div>
+                <span class="heart" data-name="Yaşamak" onclick="toggleFavori(this, 'Yaşamak')">
+                    🤍
+                </span>
+
+                <h3>Yaşamak | Kitap </h3>
+
+                <p>Aile servetini yiyip tükettiği gençlik günlerinde, uzun bir hayatın ona neler sunacağından
+                    habersizdir elbette Fugui.
+                    Yıllar sonra, yaşlı öküzüyle tarlasını sürerken tanıştığı bir yabancıya hayatından söz etmeye
+                    başladığında, şımarık bir gencin başına gelenlerden fazlasını sayıp dökecektir bu yüzden: Fugui,
+                    kendisiyle birlikte altı insanın hayatını, kaderin sürprizlerini, yaşamın acılarını ve sevinçlerini
+                    anlatır. Onun dilinden -daha doğru bir ifadeyle Yu Hua’nın kaleminden- dökülenler, insanlık
+                    durumlarına dair epik bir romana dönüşür böylece. Basit bir anlatım, güçlü bir anlatı doğurur:
+                    Sabanın toprakta bıraktığı izlere benzer kâğıt üzerinde satırlar. Yaşamın her şeyi kapsaması gibi,
+                    Yaşamak da hayatı olduğu gibi kucaklar. Doğumları ve ölümleri, mutsuzlukları ve umutlarıyla...
+                    Yayımlandığında ülkesinde yasaklanmasına rağmen, bir hayat öyküsü okumamış da sanki bir hayat
+                    yaşamış olduklarını söyleyen okurlarının her geçen gün artmasıyla bir “modern klasik”e dönüşen
+                    Yaşamak’ı Bahar Kılıç, Çince aslından çevirdi.</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Kitap 3-->
+        <div class="card">
+
+            <img src="../img/GeceYK.png" alt="Gece Yarısı Kütüphanesi kapak görseli">
+
+            <div>
+                <span class="heart" data-name="Gece Yarısı Kütüphanesi"
+                    onclick="toggleFavori(this, 'Gece Yarısı Kütüphanesi')">
+                    🤍
+                </span>
+
+                <h3>Gece Yarısı Kütüphanesi | Kitap </h3>
+
+                <p>“Yaşamla ölüm arasında bir kütüphane var,” dedi. “Bu kütüphanedeki raflar sonsuza kadar gider. Her
+                    kitap yaşamış olabileceğin başka bir hayatı yaşama şansını sunar sana. Farklı seçimler yapmış olsan,
+                    şu an nasıl bir hayatın olacağını görürsün…
+                    Pişmanlıklarını telafi etme şansın olsaydı, bazı konularda farklı davranır mıydın?”
+                    Nora Seed berbat halde. Kedisi öldü. İşinden kovuldu. Abisi onunla konuşmuyor. Kimsenin ona ihtiyacı
+                    yok. Art arda alınmış kötü kararların sonucunda bir kütüphanede buluyor kendini. Zamanın hiç
+                    akmadığı bir gece yarısı kütüphanesinde, sonsuz sayıda kitabın ortasında... Kitapların her birinde
+                    Nora’nın farklı bir hayatı yazılı. Başka kararlar verseydi yaşamış olabileceği hayatlar. Farklı
+                    kariyerler, farklı eşler, farklı arkadaşlar, farklı şehirler arasında gidip gelen Nora’nın aklı
+                    sorularla doluyor. Mutluluk sadece önemli sandığımız seçimlerde mi gizli? Yanlış giden her detayın
+                    sorumlusu gerçekten biz miyiz? Hayatı yaşanılır kılan ne? Yanlış bir karar insanın tüm hayatına mal
+                    olabilir mi?
+                    İngiliz edebiyatının önemli isimlerinden Matt Haig; Nora’nın pişmanlıklara, ihtimallere ve yeniden
+                    seçme imkânına dair çıktığı bu yolculukta, ona eşlik edecek okurlara sürükleyici ve insanın en temel
+                    sorunlarını konu alan bir kurgu sunuyor.</p>
+
+            </div>
+
+        </div>
+
+        <!-- Kitap 4-->
+        <div class="card">
+
+            <img src="../img/kendimeD.png" alt="Kendime Düşünceler kapak görseli">
+
+            <div>
+                <span class="heart" data-name="Kendime Düşünceler" onclick="toggleFavori(this, 'Kendime Düşünceler')">
+                    🤍
+                </span>
+
+                <h3>Kendime Düşünceler | Kitap </h3>
+
+                <p>Batı felsefesinin tek filozof-imparatoru Marcus Aurelius, günümüzde hem politikacı hem de düşünür
+                    kimliğiyle adından söz ettiren Roma hükümdarlarından biridir. Savaşlarla geçen yaşamı boyunca
+                    hayranlıkla felsefe metinleri okumuş, Germen kavimleriyle savaştığı sırada cephede yazdığı Kendime
+                    Düşünceler’le dünya felsefe tarihine önemi yadsınamaz bir eser kazandırmıştır. Bugün hâlâ Stoacı
+                    felsefenin en önemli metinlerinden biri olarak okunan Kendime Düşünceler, Stoacı düşüncenin modern
+                    dünyaca anlaşılmasını sağlamış başlıca metinlerden biridir.
+                    Aurelius bu ölümsüz metinde kendinden önceki Roma hükümdarlarının ve kendisinin yönetim şekillerini
+                    sorgular; kocaman bir kente benzettiği evreni, insanı merkezine alarak irdeler. Aurelius için
+                    yaşamdaki her bir ayrıntı bütünün iyiliğine hizmet eder; bu yüzden akıl yürütme kabiliyetini
+                    kullanarak doğayı, evreni ve kendisini araştırmaya mecburdur insan</p>
+
+            </div>
+
+        </div>
+
+        <!-- Kitap 5-->
+        <div class="card">
+
+            <img src="../img/SucVeC.png" alt="Suç ve Ceza kapak görseli">
+
+            <div>
+                <span class="heart" data-name="Suç ve Ceza" onclick="toggleFavori(this, 'Suç ve Ceza')">
+                    🤍
+                </span>
+
+                <h3>Suç ve Ceza | Kitap </h3>
+
+                <p>Dostoyevski (1821-1881): Gerek 1840 ortalarından itibaren yayımlamaya başladığı Beyaz Geceler ve
+                    Öteki gibi uzun öykü-kısa romanlarıyla, gerekse ilkini elinizde tuttuğunuz Suç ve Ceza, Budala ve
+                    Karamazov Kardeşler gibi Sibirya sürgünü sonrası büyük romanlarıyla Dostoyevski, insanın karanlık
+                    yakasını kendinden sonraki bütün romancıları derinden etkileyecek biçimde dile getirmiş büyük bir
+                    19. yüzyıl ustasıdır.
+
+                    Mazlum Beyhan (1944); Yayımlamış olduğu Dostoyevski’den Suç ve Ceza ve Budala, Tolstoy’dan
+                    Çocukluğum, İlkgençliğim, Gençliğim ve Gogol’dan Arabeskler benzeri çalışmalar düşünüldüğünde,
+                    Beyhan, hiç tartışmasız son 35 yılın en önemli
+                    Rus edebiyatı çevirmenlerinden biridir.</p>
+
+            </div>
+
+        </div>
+
+        <!-- Film 1-->
+        <div class="card">
+
+            <img src="../img/matrix.png" alt="Matrix afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Matrix" onclick="toggleFavori(this, 'Matrix')">
+                    🤍
+                </span>
+
+                <h3>Matrix | Film</h3>
+
+                <p>Saygın bir yazılım şirketinde çalışan Thomas Anderson (Keanu Reeves), gecelerini "Neo" adı altında
+                    program kırarak ve Matrix'i araştırarak geçirir. Esrarengiz şekilde Trinity (Carrie Ann Moss) ve
+                    Morpheus (Laurence Fishburne) ile tanışan Neo, yaşadığı dünyanın aslında beyninde gerçekleşen bir
+                    simulasyon olduğu gerçeğini öğrendikten sonra ordan kurtarılır ve Morpheus'un önderliğindeki ekibe
+                    katılır. Neo gerçek dünyada ilk nefesini aldıktan sonra simulasyona tekrar girerek Matrix'in ne
+                    olduğunu kavrayacak ve kurtarılma nedenini öğrenerek gelişen olaylar çerçevesinde yeni kimliğini
+                    tanımaya çalışacaktır</p>
+
+            </div>
+
+        </div>
+
+        <!-- Film 2-->
+        <div class="card">
+
+            <img src="../img/esaretb.png" alt="Esaretin Bedeli afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Esaretin Bedeli" onclick="toggleFavori(this, 'Esaretin Bedeli')">
+                    🤍
+                </span>
+
+                <h3>The Shawshank Redemption (Esaretin Bedeli) | Film</h3>
+
+                <p>Genç ve başarılı bir banker olan Andy Dufresne, karısını ve onun sevgilisini öldürmek
+                    suçundan ömür
+                    boyu hapse mahkum edilir ve Shawshank hapishanesine gönderilir. İşkence, tecavüz, dayak dahil her
+                    türlü kötü koşulun hüküm sürdüğü hapishane koşullarında, Andy'nin hayata bağlı ve her daim iyi bir
+                    şeyler bulma çabası içindeki hali, çevresindeki herkesi çok etkileyecektir. Bir süre sonra
+                    parmaklıkların arkasında bile özgür bir yaşam olabileceğine bütün mahkumları inandırır. Bu
+                    mahkumlardan biri olan Ellis Boyd "Red" ve Andy, unutulmaz bir dostluk kurarak hapishaneyi bambaşka
+                    bir yer haline getirirler.</p>
+            </div>
+        </div>
+
+        <!-- Film 3-->
+        <div class="card">
+
+            <img src="../img/godfather.png" alt="The Godfather afiş görseli">
+
+            <div>
+                <span class="heart" data-name="The Godfather" onclick="toggleFavori(this, 'The Godfather')">
+                    🤍
+                </span>
+
+                <h3>The Godfather (Baba) | Film</h3>
+
+                <p>Mario Puzo'nun çok satan kitabından Puzo ve yönetmen Francis Ford Coppola tarafından sinemaya
+                    uyarlanan eser, 40'lar ve 50'lerin Amerika'sında, bir İtalyan mafya ailesinin destansı öyküsünü konu
+                    alıyor. Corleone ailesi, Don Vito Corleone'nin başında olduğu, suça dayalı bir örgüt kurmuş olan
+                    İtalyan asıllı meşhur bir ailedir. Aile, New York'taki diğer dört aileyle birlikte New York'un
+                    yeraltı işlerini yönetmektedir. Ancak Corleone ailesini diğerlerinden ayıran özelliği, Don
+                    Corleone'nin cebinde bozuk para gibi taşıdığı politikacılar ve yargıçlardır. Politikacılar ve
+                    yargıçlarla olan bu yakın ilişkileri diğer ailelerin açamadığı kapıları açabilmesini sağlamaktadır.
+                </p>
+            </div>
+        </div>
+
+        <!-- Film 4-->
+        <div class="card">
+
+            <img src="../img/fclub.png" alt="Fight Club afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Fight Club" onclick="toggleFavori(this, 'Fight Club')">
+                    🤍
+                </span>
+
+                <h3>Fight Club (Dövüş Kulübü) | Film</h3>
+
+                <p>Dövüş Kulübü; Norton, hayatının sıkıcılığından kaçmak isteyen, kronik uykusuzluk çeken Jack rolünde.
+                    Her şey,
+                    Jack’in karizmatik ama çarpık bir felsefeye sahip sabun satıcısı Tyler Durden ile tanışmasıyla
+                    değişir. Tyler’a göre kişisel gelişim zayıfların işidir; asıl yaşamayı anlamlı kılan şey kendini yok
+                    etmektir. Kısa süre içinde Jack ve Tyler, bir barda otoparkta birbirlerini pataklamaya başlarlar —
+                    bu, onlara hayatın gerçek anlamını hissettiren bir tür arınma olur. Bu şiddetin keyfini başka
+                    erkeklere de tattırmak için, birlikte gizli bir Dövüş Kulübü kurarlar. Kulüp kısa sürede çılgınca
+                    bir başarı kazanır. Ancak Jack’i her şeyi altüst edecek şok edici bir sürpriz beklemektedir…
+                </p>
+            </div>
+        </div>
+
+        <!-- Film 5-->
+        <div class="card">
+
+            <img src="../img/yuzukEf.png" alt="Yüzüklerin Efendisi afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Yüzüklerin Efendisi" onclick="toggleFavori(this, 'Yüzüklerin Efendisi')">
+                    🤍
+                </span>
+
+                <h3>Lord of the Rings (Yüzüklerin Efendisi) | Film</h3>
+
+                <p>Frodo olarak bilinen genç bir Hobbit, Karanlık Lord Sauron tarafından yaratılan Tek Yüzük'ü yok etme
+                    görevine atandığında inanılmaz bir maceraya atıldı. Gandelf, Aragorn ve Boromir dahil olmak üzere üç
+                    savaşçı ile görevlendirildi. Ama Yüzük Kardeşliği için kolay bir yolculuk olmayacak.
+                </p>
+            </div>
+        </div>
+
+        <!-- Dizi 1-->
+        <div class="card">
+
+            <img src="../img/squidGame.jpg" alt="Squid Game afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Squid Game" onclick="toggleFavori(this, 'Squid Game')">
+                    🤍
+                </span>
+
+                <h3>Squid Game | Dizi</h3>
+                <p>
+                    Para sıkıntısı çeken yüzlerce oyuncu, tuhaf bir davet alır. Davette onlara cazip bir ödül
+                    karşılığında çocuk oyunlarında yarışmaları teklif edilir. Teklifi kabul eden oyuncular, yarışmayı
+                    kazanırlarsa 40 milyon dolarlık büyük ödülün sahibi olacaktır. Ancak ödül cazip olsa da oyunun
+                    ölümcük riskleri vardır.
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <!-- Dizi 2-->
+        <div class="card">
+
+            <img src="../img/prens.png" alt="Prens afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Prens" onclick="toggleFavori(this, 'Prens')">
+                    🤍
+                </span>
+
+                <h3>Prens | Dizi</h3>
+                <p>
+                    Hikâye, Bongomya adlı hayali bir krallıkta geçer. Kral Thun’un ani ölümü sonrası taht boş kalır ve
+                    daha önce ciddiye alınmayan oğlu Prens, bir anda yönetimin başına geçmek zorunda kalır. Hayatını
+                    saraydan uzak, izole bir şekilde geçiren Prens’in yönetim konusunda hiçbir deneyimi yoktur. Bu durum
+                    hem saray içinde hem de krallık genelinde çeşitli krizlere yol açar.
+                    Dizi, bu deneyimsiz karakterin güç, sorumluluk ve kimlik arayışı üzerinden ilerler. Ancak anlatım
+                    dili tamamen mizahi ve absürt bir yapıdadır. Ciddi görünen olaylar bile beklenmedik şekilde komediye
+                    dönüşebilir. Bu da izlerken sürprizli ve eğlenceli bir deneyim sunar.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- Dizi 3-->
+        <div class="card">
+
+            <img src="../img/breakingbad.png" alt="Breaking Bad afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Breaking Bad" onclick="toggleFavori(this, 'Breaking Bad')">
+                    🤍
+                </span>
+
+                <h3>Breaking Bad | Dizi</h3>
+                <p>
+                    Kanser olduğunu öğrenen Walter White, eski öğrencisi Jesse'yle uyuşturucu üretmeye başlar
+                    Lisede kimya öğretmenliği yapan Walter White bir gün akciğer kanseri olduğunu öğrenir. Kendisi
+                    ölünce ailesi için maddi birikim yapmak isteyen Walter'ın yolu, uyuşturucu ağlarını iyi bilen eski
+                    öğrenicisi Jesse Pinkman'la kesişince, kolay ama yasa dışı yollardan para kazanmasını sağlayan meth
+                    üretimi işine girer.
+                </p>
+            </div>
+        </div>
+
+        <!-- Dizi 4-->
+        <div class="card">
+
+            <img src="../img/lost.png" alt="Lost afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Lost" onclick="toggleFavori(this, 'Lost')">
+                    🤍
+                </span>
+
+                <h3>Lost | Dizi</h3>
+                <p>
+                    Ücra bir tropik adaya düşen uçaktan sağ kurtulanlar, hayatta kalmak için gizli tehlikeler ve
+                    gizemli, karanlık güçlerle başa çıkmak zorundadır.
+                </p>
+            </div>
+        </div>
+
+        <!-- Dizi 5-->
+        <div class="card">
+
+            <img src="../img/tWalkingD.png" alt="The Walking Dead afiş görseli">
+
+            <div>
+                <span class="heart" data-name="The Walking Dead " onclick="toggleFavori(this, 'The Walking Dead ')">
+                    🤍
+                </span>
+
+                <h3>The Walking Dead | Dizi</h3>
+                <p>
+                    Uzun süre kaldığı komadan uyanan Rick Grimes kendini zombi işgali altında bir dünyada bulur
+                    Rick Grimes adındaki bir şerif yardımcısı, görev esnasında yaşadığı bir çatışmada vurulur ve
+                    hastaneye kaldırılır. Uzun bir süre komada kalan Grimes, uyandığında dehşet verici bir dünyayla
+                    karşılaşır. Ölümcül bir virüs, insanların beyinlerini ele geçirmeye ve onları zombilere dönüştürmeye
+                    başlamıştır. Grimes, sağ kalan bir gruba liderlik eder ve birlikte henüz ölüler tarafından işgal
+                    edilmemiş bir kurtarılmış bölge ararlar.
+                </p>
+            </div>
+        </div>
+
+        <p style="text-align:center;">
+            Diğer popüler öneriler zamanla eklenecektir.
+        </p>
+
+    </div>
+
+</body>
+
+</html>

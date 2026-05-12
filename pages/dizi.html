@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizi Önerileri</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/myscript.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="Anasayfa.html">Ana Sayfa</a>
+        <a href="film.html">Filmler</a>
+        <a href="kitap.html">Kitaplar</a>
+        <a href="populer.html">Popüler</a>
+        <a href="favoriler.html">Favorilerim</a>
+    </div>
+
+    <div class="container">
+
+        <h2>Dizi Önerileri</h2>
+
+        <!-- DİZİ 1 -->
+        <div class="card">
+            <img src="../img/strangerThings.png" alt="Stranger Things afiş">
+
+            <div>
+                <span class="heart" data-name="Stranger Things" onclick="toggleFavori(this, 'Stranger Things')">
+                    🤍
+                </span>
+
+                <h3>Stranger Things</h3>
+                <p>
+                    Dizi 1980'li yıllarda New York eyaletine bağlı bir liman kasabası olan Montauk'ta geçmektedir. Genç
+                    bir çocuk gizemli bir şekilde ortadan kaybolur. Ailesi, arkadaşları ve yerel polisler çocuğun
+                    ortadan kaybolması ile ilgili kapsamlı bir soruşturma başlatarak gerçeği açığa çıkartmaya
+                    çalışırlar. Olayın soruşturması derinleştikçe gizli hükümet deneylerinin yapıldığı olağanüstü bir
+                    gizemin içine çekilirler. Annesi (Winona Ryder) çocuğunu alabilmek için korkunç doğaüstü güçlerle
+                    yüzleşmek zorundadır. Aktör David Harbour kasabanın şerifi olarak dizide rol almaktadır.
+                </p>
+
+
+            </div>
+        </div>
+
+        <!-- DİZİ 2 -->
+        <div class="card">
+            <img src="../img/TheWitcher.png" alt="The Witcher afiş">
+
+            <div>
+                <span class="heart" data-name="The Witcher" onclick="toggleFavori(this, 'The Witcher')">
+                    🤍
+                </span>
+
+                <h3>The Witcher</h3>
+                <p>
+                    The Witcher, büyücü Rivyalı Geralt'ın maceralarını takip ediyor. Yaratık avcısı Geralt, insanların
+                    geri kalan varlıklardan daha tehlikeli olduğu bu evrende hayatta kalmaya çalışır. Kader yollarını
+                    güçlü bir büyücü ve genç bir prensesle kesiştirdiğinde ise üçü birlikte sınırları zorlayan bir yo
+                    lculuğa koyulurlar. Andrzej Sapkowski'nin sekiz romandan oluşan fantastik serisi, hit video oyunu
+                    Witcher'ın da çıkış noktası olmuştu. Oyunun dünya çapında popüler olmasıyla birlikte romanlar, çizgi
+                    roman serisi ve masa oyunu olarak da piyasaya sürüldü. Lauren Schmidt Hissrich'in imzasıyla, 8 bölüm
+                    halinde ekrana taşınan "The Witcher" 2020'de Netflix'te izleyici karşısına çıkacak. Dizinin oyuncu
+                    kadrosunda Freya Allan, Anya Chalotra, Jodhi May, Mimi Ndiweni, Therica Wilson-Read, Millie Brady,
+                    Adam Levy, Björn Hlynur Haraldsson ve MyAnna Buring gibi isimler boy gösterecek.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 3 -->
+        <div class="card">
+            <img src="../img/bigmistakes.png" alt="Big Mistakes afiş">
+
+            <div>
+                <span class="heart" data-name="Big Mistakes" onclick="toggleFavori(this, 'Big Mistakes')">
+                    🤍
+                </span>
+
+                <h3>Big Mistakes</h3>
+                <p>
+                    Sıradan hayatların kıyısında tutunmaya çalışan, beceriksizlikleriyle nam salmış iki kardeşin
+                    dünyası, beklenmedik bir şantajla altüst olur. Kendilerini bir anda yeraltı dünyasının acımasız
+                    girdabında bulan bu talihsiz ikili, bilmedikleri kurallarla dolu tehlikeli bir oyunun piyonu haline
+                    gelir. Yaşadıkları her an, bir yandan komik durumlara yol açarken, diğer yandan hayatta kalma
+                    mücadelesinin en çetin sınavlarını beraberinde getirir.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 4 -->
+        <div class="card">
+            <img src="../img/highpotential.png" alt="High Potential afiş">
+
+            <div>
+                <span class="heart" data-name="High Potential" onclick="toggleFavori(this, 'High Potential')">
+                    🤍
+                </span>
+
+                <h3>High Potential</h3>
+                <p>
+                    Üç çocuğunu tek başına büyüten Morgan, üstün zekâsı sayesinde hayatını değiştirme fırsatı yakalar.
+                    Polis departmanında temizlikçi olarak çalışırken, kanıtları dikkatlice inceleyip yeniden
+                    düzenleyerek karmaşık bir suçun çözülmesine katkıda bulunur. Morgan’ın bu beklenmedik başarısı, onun
+                    ve ailesinin hayatını farklı bir yöne sürükler.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 5 -->
+        <div class="card">
+            <img src="../img/mezarlik.png" alt="Mezarlık afiş">
+
+            <div>
+                <span class="heart" data-name="Mezarlık" onclick="toggleFavori(this, 'Mezarlık')">
+                    🤍
+                </span>
+
+                <h3>Mezarlık</h3>
+                <p>
+                    Komiser Önem Özülkü, kadın cinayetlerini çözmek amacıyla kurulan Özel Suçlar Birimi'nin lideri
+                    olarak görevlendirilir. Ekibiyle birlikte gizemli cinayetlerin peşine düşen Özülkü, bu süreçte en
+                    büyük engel olarak, cinayetlere karşı önyargılı yaklaşan erkeklerle mücadele etmek zorunda kalır.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 6 -->
+        <div class="card">
+            <img src="../img/modernfmly.png" alt="Modern Family afiş">
+
+            <div>
+                <span class="heart" data-name="Modern Family" onclick="toggleFavori(this, 'Modern Family')">
+                    🤍
+                </span>
+
+                <h3>Modern Family</h3>
+                <p>
+                    Modern Family, Amerika ABC televizyonun da yayınlanan bir komedi dizisidir. Dizi, 3 aile ve 3 ayrı
+                    yaşamı ele almaktadır.İlk ailemizin reisini "Evli ve Çocuklu" dizisinde meşhur Al Bundy karakterini
+                    oynayan Ed O'Neill, Jay Pritchett karakteriyle canlandırıyor. Jay kendinden çok daha genç bir eşe
+                    sahiptir. Gloria adlı genç eşinin bir de Manny adlı oğlu vardır. Jay, Manny'e bir yandan üvey
+                    babalık yapmaya çalışırken diğer yandan da genç eşini başkalarına kaptırmamaya çalışmaktadır.
+                    İkinci ailemiz ise Phil ve Claire Dunphy çiftidir. Claire, Jay Pritchett'in öz kızı, Phil ise
+                    damadıdır. Phil ve Claire çiftinin Haley, Luke ve Alex adın da 3 çocukları vardır. Aile'nin en büyük
+                    derdi yaramaz oğulları Luke ve erkek arkadaş sorunları başlayan kızları Haley ve Alex. Üçüncü
+                    ailemiz ise gay bir çiftten oluşuyor, Mitchell ve Cameron. Mitchell, Jay Pritchett'in öz oğlu. Bu
+                    çiftimizin Vietnam'dan evlat edindikleri Lilly adlı bir bebekleri bulunuyor.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 7 -->
+        <div class="card">
+            <img src="../img/üccisimprblm.jpg" alt="Üç Cisim Problemi afiş">
+
+            <div>
+                <span class="heart" data-name="The Three-Body Problem"
+                    onclick="toggleFavori(this, 'The Three-Body Problem')">
+                    🤍
+                </span>
+
+                <h3>The Three-Body Problem</h3>
+                <p>
+                    1960'larda Çin'de alınan bir karar, uzay ve zamanın ötesine geçerek günümüzdeki bir grup bilim
+                    insanını
+                    insanlığın en büyük tehdidiyle yüzleşmeye zorlar.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 8-->
+        <div class="card">
+            <img src="../img/got.png" alt="Game Of Thrones afiş">
+
+            <div>
+                <span class="heart" data-name="Game Of Thrones" onclick="toggleFavori(this, 'Game Of Thrones')">
+                    🤍
+                </span>
+
+                <h3>Game Of Thrones</h3>
+                <p>
+                    Yedi Krallık'ın kralı Robert Baratheon, ani bir şekilde hayatını kaybederek tahtı çocukluk dostu
+                    Eddard Stark'a emanet eder. Eddard, entrikalarla dolu bu dünyada kimin dost, kimin düşman olduğunu
+                    kestiremez. Bu durum, Demir Taht'ın eski varisleri için beklenen fırsatı doğurur ve hanedanlar
+                    arasında kıyasıya bir mücadele başlar. Dostlukların ve ihanetlerin iç içe geçtiği bu süreçte, Yedi
+                    Krallık zorlu bir dönemin eşiğindedir. Ufukta uzun bir kış gözükürken, Kuzey'de Kara Nöbet'in
+                    ardında gizlenen karanlık bir güç krallığın üzerine korku salar. Tüm bu kaos içinde, Demir Taht yeni
+                    sahibini bekler.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 9-->
+        <div class="card">
+            <img src="../img/PeraPalastaGeceYarısı.png" alt="Pera Palasta Gece Yarısı afiş">
+
+            <div>
+                <span class="heart" data-name="Pera Palasta Gece Yarısı"
+                    onclick="toggleFavori(this, 'Pera Palasta Gece Yarısı')">
+                    🤍
+                </span>
+
+                <h3>Pera Palasta Gece Yarısı</h3>
+                <p>
+                    Genç gazeteci Esra, Pera Palas Oteli hakkında bir makale hazırlamak üzere görevlendirilir. Oteli
+                    gezerken, odalardan birinin 1919 yılına açılan bir kapı olduğunu keşfeder. Zamanda bu beklenmedik
+                    yolculuk sayesinde, Mustafa Kemal Atatürk'e karşı planlanan bir komployu öğrenir. Türkiye tarihinin
+                    gidişatını ve geleceğini koruma sorumluluğunu üstlenen Esra, bu süreçte Halit adında esrarengiz bir
+                    adamla karşılaşır ve her şeyin göründüğü gibi olmadığını fark eder.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 10-->
+        <div class="card">
+            <img src="../img/MasMü.png" alt="Masumiyet Müzesi afiş">
+
+            <div>
+                <span class="heart" data-name="Masumiyet Müzesi" onclick="toggleFavori(this, 'Masumiyet Müzesi')">
+                    🤍
+                </span>
+
+                <h3>Masumiyet Müzesi</h3>
+                <p>
+                    Orhan Pamuk’un dünyaca tanınan romanından uyarlanan Masumiyet Müzesi, 1970’li yıllarda İstanbul’da
+                    başlayan, varlıklı bir ailenin oğlu Kemal ile yoksul ve uzak akrabası Füsun arasındaki çalkantılı
+                    ilişkiyi konu alır. Füsun’a duyduğu duygular uğruna herkesi karşısına alan Kemal, genç kadına ait
+                    küpelerden tokalara, hatta içtiği sigaraların izmaritlerine kadar pek çok eşyayı biriktirmeye
+                    koyulur… Yapım, aşkın insanın hayatına bir kaza gibi giren, onu yoldan çıkaran bir saplantı ve acı
+                    mı, yoksa saf ve büyük bir mutluluk mu olduğunu sorgular.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 11-->
+        <div class="card">
+            <img src="../img/asaf.png" alt="Asaf afiş">
+
+            <div>
+                <span class="heart" data-name="Asaf" onclick="toggleFavori(this, 'Asaf')">
+                    🤍
+                </span>
+
+                <h3>Asaf</h3>
+                <p>
+                    Uber şoförü olan Asaf, eşi ve oğlu tarafından terk edildikten sonra hayatını yeniden düzeltmeye
+                    çalışır. Ancak onun hayatı, talihsiz bir araba kazası sonucu bambaşka bir hal alır. Kaza sonucu
+                    Asaf, yanlış insanların piyonu haline gelir ve artık hiçbir şey eskisi gibi olmaz.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 12-->
+        <div class="card">
+            <img src="../img/ragnarok.png" alt="Ragnarok afiş">
+
+            <div>
+                <span class="heart" data-name="Ragnarok" onclick="toggleFavori(this, 'Ragnarok')">
+                    🤍
+                </span>
+
+                <h3>Ragnarok</h3>
+                <p>
+                    İnsanlık, iklimsel bir felaketin eşiğinde olduğu bir gelecekle karşı karşıya. Norveç'in kurgusal
+                    Edda kasabasında yaşayan bir grup genç, dünyayı saran bu kriz ortamında doğaüstü güçlere sahip
+                    olduklarını fark eder. İklim felaketlerinin dünyayı yavaş yavaş yok oluşa sürüklediği bu süreçte,
+                    gençler bu güçlerin yardımıyla birbirlerine bağlanır. Nors mitolojisinde bahsedilen Ragnarök benzeri
+                    bir kıyameti durdurmak için bir araya gelmeleri gerektiğini anlarlar. Kasabanın sakinleri, zamanla
+                    yarışarak bu kadim tehdidi bertaraf etmek zorundadır.
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 13-->
+        <div class="card">
+            <img src="../img/therain.png" alt="The Rain afiş">
+
+            <div>
+                <span class="heart" data-name="The Rain" onclick="toggleFavori(this, 'The Rain')">
+                    🤍
+                </span>
+
+                <h3>The Rain</h3>
+                <p>
+                    Bildiğimiz dünyanın sonu gelmiştir. Yağmurla gelen ve İskandinavya nüfusunun çoğunu yok eden ölümcül
+                    bir virüsten altı yıl sonra, iki Danimarkalı kardeş güvenli bir yer bulmak için bir yolculuğa
+                    çıkarlar. Kendileri gibi hayatta kalan diğer gençlere katılarak, İskandinavya’nın geri kalanında bir
+                    hayat belirtisi aramak üzere tehlikeli bir yolculuğa başlarlar.
+                    Kolektif geçmişlerinden ve toplumsal kurallardan kurtulmak isteyen grup üyeleri, istedikleri kişi
+                    olmakta özgürdür. Hayatta kalma savaşı veren gençler, geride bıraktıkları dünyada kaldığına
+                    inandıkları, aşk, kıskançlık, yaşlılık gibi birçok sorunun kıyamet sonrası dünyada bile var olduğunu
+                    keşfederler.w
+                </p>
+            </div>
+        </div>
+
+        <!-- DİZİ 14-->
+        <div class="card">
+            <img src="../img/gibi.png" alt="Gibi afiş">
+
+            <div>
+                <span class="heart" data-name="Gibi" onclick="toggleFavori(this, 'Gibi')">
+                    🤍
+                </span>
+
+                <h3>Gibi</h3>
+                <p>
+                    Gibi, kendilerini türlü talihsizliklerin, tuhaf olayların içinde bulan iki yakın arkadaşın
+                    hikayesini konu ediyor. Zamanlarının çoğunu bir arada geçiren Yılmaz ve İlkkan, sürekli didişen iki
+                    yakın arkadaştır. Onlar sıradan bir yaşam sürse de, kendilerini sürekli hayatlarını
+                    karmaşıklaştıracak olayların içinde bulurlar. Küçük bir olayı devasa bir boyuta getirmeyi başaran
+                    Yılmaz ve İlkkan, zamanla işleri içinden çıkılmaz bir hale getirmekte ustalaşır.
+                </p>
+            </div>
+        </div>
+
+         <!-- Dizi 15-->
+        <div class="card">
+
+            <img src="../img/sn.png" alt="Supernatural afiş görseli">
+
+            <div>
+                <span class="heart" data-name="Supernatural" onclick="toggleFavori(this, 'Supernatural')">
+                    🤍
+                </span>
+
+                <h3>Supernatural | Dizi</h3>
+                <p>
+                    Ürpertici. Kaçık. Açıklanamayan. Alaycı Sam Winchester böyle korkunç şeyleri avlamak için büyüdü.
+                    Ama hepsi geçmişte kaldı. Hukuk fakültesi onu çağırıyor. Güvenli ve normal bir hayat ta öyle. Ta ki,
+                    Sam'in kardeşi Dean rahatsız edici bir haberle karşılaşıncaya kadar: 22 yıldır kötülükle savaşan
+                    babaları ortadan kayboldu. Babalarını bulmak için kardeşler babalarının avlarını avlamalı ... ve Sam
+                    geride bırakmak istediği hayata geri dönmeli.
+                </p>
+            </div>
+        </div>
+
+
+        <p style="text-align:center;">
+            Diğer dizi önerileri zamanla eklenecektir.
+        </p>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoriler</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/myscript.js" defer></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="Anasayfa.html">Ana Sayfa</a>
+        <a href="dizi.html">Diziler</a>
+        <a href="film.html">Filmler</a>
+        <a href="kitap.html">Kitaplar</a>
+        <a href="populer.html">Popüler</a>
+        <a href="favoriler.html">Favoriler</a>
+    </div>
+
+    <div class="container">
+
+        <h2>Favorilerim</h2>
+
+        <div id="liste"></div>
+
+    </div>
+
+    <script>
+       function listeyiYazdir() {
+    let veri = JSON.parse(localStorage.getItem("favoriler")) || [];
+
+    let alan = document.getElementById("liste");
+
+    if (veri.length === 0) {
+        alan.innerHTML = "<p>Henüz favori yok.</p>";
+        return;
+    }
+
+    alan.innerHTML = "";
+
+    veri.forEach(item => {
+        alan.innerHTML += "<p>❤️ " + item + "</p>";
+    });
+}
+
+listeyiYazdir();
+
+    </script>
+
+</body>
+
+</html>
