@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+          
+        <a href="dizi.html">Diziler</a>
+        <a href="film.html">Filmler</a>
+        <a href="kitap.html">Kitaplar</a>
+        <a href="populer.html">Popüler</a> 
+        <a href="favoriler.html">Favorilerim</a>
+        <a href="iletisim.html">İletişim</a>
+    </div>
+
+    <!-- İÇERİK -->
+    <div class="container">
+
+        <h1 style="text-align:center;">Ne Okusam? Ne İzlesem?</h1>
+
+        <p style="font-size:large; text-align:center;">
+            Hoş geldiniz! <b>“Ne Okusam? Ne İzlesem?”</b> sitesi,
+            film, dizi ve kitap önerilerini bir arada bulabileceğiniz bir platformdur.
+            Burada her kategori için özenle seçilmiş içerikleri keşfedebilir,
+            merak ettiğiniz önerilere kolayca ulaşabilirsiniz.
+            Görsellerin üzerine yada yukarıda gördüğünüz başlıklara tıklayarak ilgili sayfalara gidebilir ve
+            favorilerinizi keşfetmeye başlayabilirsiniz.
+            Keyifli gezintiler!
+        </p>
+
+        <br>
+
+        <!-- HARİTA GÖRSEL -->
+        <div style="text-align:center;">
+            <img src="../img/poster.png" usemap="#posterMap" alt="kategori görselleri" width="900">
+        </div>
+
+        <map name="posterMap">
+            <area shape="rect" coords="0,0,450,282" href="dizi.html" alt="Dizi">
+            <area shape="rect" coords="450,0,900,282" href="film.html" alt="Film">
+            <area shape="rect" coords="0,282,450,816" href="kitap.html" alt="Kitap">
+            <area shape="rect" coords="623,282,900,816" href="populer.html" alt="Popüler">
+        </map>
+
+    </div>
+
+</body>
+
+</html>
